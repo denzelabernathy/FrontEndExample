@@ -1,0 +1,21 @@
+.container {
+    padding: 50px;
+}
+.row {
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pre-owned-cars-header {
+   text-align: center; 
+}
+.pre-owned-cars-content {
+    text-align: center;
+}
+.card {
+    text-align: center; 
+}
+.img-fluid {
+    max-height: 100%;
+    height: auto;
+}

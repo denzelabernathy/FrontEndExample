@@ -1,0 +1,49 @@
+<app-nav-bar></app-nav-bar>
+
+<div class="container">
+  <div class="carousel">
+    <ngb-carousel [showNavigationArrows]="showNavigationArrows" [interval]="interval">
+      <ng-template ngbSlide>
+        <img src="https://c1.staticflickr.com/5/4584/38343263746_1d47b8645b_b.jpg" class="img-fluid" alt="Random first slide">
+        <div class="carousel-caption">
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <img src="https://c1.staticflickr.com/6/5800/24015005656_c0f88a8832_b.jpg" class="img-fluid" alt="Random second slide">
+        <div class="carousel-caption">
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/BMW_F80.jpg/1024px-BMW_F80.jpg" class="img-fluid" alt="Random third slide">
+        <div class="carousel-caption">
+        </div>
+      </ng-template>
+    </ngb-carousel>
+  </div>
+</div>
+<div class="new-cars-header">
+  <h1>New Cars</h1>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">New Offers</h5>
+        <p class="card-text">We offer the most competive prices around. Want a new car? Want a good price? Come visit us today at our new location.
+        </p>
+        <a routerLink="" class="btn btn-primary">Map</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Looking for something else?</h5>
+        <p class="card-text">While a new car is always nice, sometimes it isn't the right choice for you. Well, we have you covered. Come check
+          out our pre-owned cars today.
+        </p>
+        <a routerLink="/pre-owned-cars" class="btn btn-primary">Pre-Owned Cars</a>
+      </div>
+    </div>
+  </div>
+</div>

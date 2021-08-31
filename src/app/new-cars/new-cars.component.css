@@ -1,0 +1,14 @@
+.container {
+    padding: 50px;
+}
+.row {
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.new-cars-header {
+   text-align: center; 
+}
+.card {
+    text-align: center; 
+}

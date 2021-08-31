@@ -1,0 +1,27 @@
+.container {
+    padding: 50px;
+    text-align: center;
+}
+.jumbotron {
+    margin: 20px;
+    background-image: url("https://images.unsplash.com/photo-1533648291743-ff1e039ddafb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0e00c5085e699449d00ceb5a8b1b556d&auto=format&fit=crop&w=750&q=80");
+    background-position: 0% 55%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+.row {
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card {
+    text-align: center; 
+}
+.form-group {
+    padding: 10px; 
+}
+.btn {
+    padding: 10px; 
+}
